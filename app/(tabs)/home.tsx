@@ -131,6 +131,8 @@ const styles = StyleSheet.create({
 
   scrollView: {
     flex: 1,
+    padding:7,
+    marginTop:10,
   },
   header: {
     flexDirection: 'row',
@@ -241,6 +243,7 @@ const styles = StyleSheet.create({
   },
   section: {
     marginBottom: theme.spacing.lg,
+    padding:10,
   },
   sectionHeader: {
     flexDirection: 'row',

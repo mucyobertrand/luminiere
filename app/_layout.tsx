@@ -18,7 +18,6 @@ const stackScreenOptions = {
 const screenOptions = {
   tabs: { headerShown: false },
   auth: { headerShown: false },
-  modal: { presentation: "modal" as const },
 };
 
 const statusBarStyle = "light" as const;
@@ -34,7 +33,6 @@ function RootLayoutNav() {
         <Stack.Screen name="auth/signup" options={screenOptions.auth} />
         <Stack.Screen name="cart" options={screenOptions.auth} />
         <Stack.Screen name="checkout" options={screenOptions.auth} />
-        <Stack.Screen name="modal" options={screenOptions.modal} />
       </Stack>
     </>
   );

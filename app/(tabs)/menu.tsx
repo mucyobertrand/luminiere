@@ -141,6 +141,7 @@ const styles = StyleSheet.create({
   },
   section: {
     marginBottom: theme.spacing.lg,
+    padding:5,
   },
   sectionHeader: {
     flexDirection: 'row',
@@ -172,7 +173,7 @@ const styles = StyleSheet.create({
     marginRight: theme.spacing.md,
     borderWidth: 1,
     borderColor: theme.colors.border,
-    minHeight: 120,
+    height: 135,
     justifyContent: 'center',
     alignItems: 'center',
     width: 120,

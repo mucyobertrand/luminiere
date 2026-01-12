@@ -115,6 +115,7 @@ const styles = StyleSheet.create({
   },
   safeArea: {
     flex: 1,
+    padding:10,
   },
   scrollView: {
     flex: 1,

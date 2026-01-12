@@ -84,11 +84,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingHorizontal: theme.spacing.md,
+    paddingHorizontal: theme.spacing.lg,
     paddingVertical: theme.spacing.lg,
   },
   title: {
-    fontSize: theme.fontSize['3xl'],
+    fontSize: theme.fontSize['2xl'],
     fontWeight: theme.fontWeight.bold,
     color: theme.colors.text,
   },
